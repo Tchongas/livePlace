@@ -52,3 +52,9 @@ button {
 button:hover {
     background-color: #3f3f3f;
 }
+
+
+.error {
+    color: red;
+    visibility: hidden;
+}

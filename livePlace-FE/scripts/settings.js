@@ -1,5 +1,6 @@
 getData();
 
+
 let pixelSize = 50;
 let canvas = document.getElementById('canvas');
 let ctx = canvas.getContext('2d');
@@ -26,6 +27,4 @@ const colorMap = {
     "4": colors[4],
 }
 
-
-
-
+setInterval(getData, 5000);

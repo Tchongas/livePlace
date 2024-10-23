@@ -1,6 +1,7 @@
-let x = 0, y = 0;
+
 
 async function update(info) { 
+    let x = 0, y = 0;
     info.forEach((value, i) => {
     const xPos = x * pixelSize
     const yPos = y * pixelSize
