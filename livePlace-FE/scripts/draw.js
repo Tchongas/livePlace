@@ -8,6 +8,9 @@ function draw(x, y) {
 
     ctx.fillStyle = color;
     ctx.fillRect(snappedX, snappedY, pixelSize, pixelSize);
+    const index = positionY * gridWidth + positionX;
+    let intColor = colors.indexOf(color);
+    updateBinaryArray(index, intColor);
 }
 
 function getMousePosition(e) {

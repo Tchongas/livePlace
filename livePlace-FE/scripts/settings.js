@@ -1,13 +1,15 @@
 getData();
 
-
-let pixelSize = 50;
+const gridWidth = 16;
+const pixelSize = 50;
 let canvas = document.getElementById('canvas');
 let ctx = canvas.getContext('2d');
 let mouse = {
     x: 0,
     y: 0
 };
+
+
 
 const colors = [
     'white',
@@ -27,4 +29,4 @@ const colorMap = {
     "4": colors[4],
 }
 
-setInterval(getData, 5000);
+setInterval(getData, 200);
