@@ -1,3 +1,4 @@
+
 let infoArray = null;
 async function getData() {
     try {

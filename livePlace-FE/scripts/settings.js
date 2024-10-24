@@ -14,9 +14,14 @@ let mouse = {
 const colors = [
     'white',
     '#47b347',
-    '#4769b3',
+    '#7380de',
     '#b34747',
     'black',
+    '#5c32a8',
+    '#d6d140',
+    '#de73d0',
+    '#db9948',
+    '#485edb',
 
 ];
 let color = colors[0];
@@ -27,6 +32,12 @@ const colorMap = {
     "2": colors[2],
     "3": colors[3],
     "4": colors[4],
+    "5": colors[5],
+    "6": colors[6],
+    "7": colors[7],
+    "8": colors[8],
+    "9": colors[9],
+
 }
 
 setInterval(getData, 200);
