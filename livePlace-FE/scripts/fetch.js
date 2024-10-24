@@ -1,7 +1,7 @@
 let infoArray = null;
 async function getData() {
     try {
-        const response = await fetch("http://127.0.0.1:5000/info");
+        const response = await fetch("https://livesketch-back.fly.dev/info");
         let infoArray = await response.text(); infoArray = infoArray.split(""); 
         update(infoArray);
     } catch (error) {
