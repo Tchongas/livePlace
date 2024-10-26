@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.spacer-10px {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+}
+
+.spacer-75px {
+    margin: 0;
+    padding: 0;
+    height: 75px;
+}
+
+#canvas {
+    background-color: #000000;
+    display: block;
+    margin: auto;
+    width: min(80vw, 80vh); /* Set the width to the smaller of 80% of the viewport width or height */
+    height: auto; /* Automatically adjust height based on aspect ratio */
+    aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
+}
+
+@media (max-width: 500px) {
+    #canvas {
+        width: min(90vw, 90vh); /* Increase size on smaller screens */
+    }
+}
+
+
+
+
+    
+
+button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3f3f3f;
+}
+
+
+.error {
+    color: red;
+    visibility: hidden;
+}
+
+.color-button {
+    width: 50px;
+    height: 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
